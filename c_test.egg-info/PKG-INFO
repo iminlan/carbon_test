@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: c-test
+Version: 0.1
+Summary: Система сбора информации
+Home-page: http://github.com/iminlan/c_test
+Author: Anny
+Author-email: Ann.bakhteeva@gmail.com
+License: UNKNOWN
+Description: README.txt
+Keywords: сбор информации загрузка процессора
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Framework :: Django

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Загрузка процессора, %</title>
+    <style type="text/css">
+    TABLE {
+    margin-left: 100px;
+    }
+    TD {
+    font-size: 14px;
+    width: 150px;
+    padding: 1px;
+    border-collapse: collapse;
+    border: 1px solid white;
+    text-align: center;
+    background: #E0FFFF;
+    }
+    TH {
+    font-size: 18px;
+    padding: 8px;
+    }
+  </style>
+</head>
+<body>
+<table >
+    <tr>
+        <th>
+        Загрузка процессора, %
+        </th>
+    </tr>
+    {% for message in object_list %}
+    <tr>
+        <td>
+        {{ message }}
+        </td>
+    </tr>
+    {% endfor %}
+</table>
+</body>
+</html>
+
